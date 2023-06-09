@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Lemon';
+    src: url('./Lemon-Regular.ttf') format('truetype');
+    font-weight: bold;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .separator {
+    border-left: 1px solid #000000;
+    height: 30px;
+    margin: 0 20px;
+    color: gray;
+  }
+
+.logo {
+    font-family: 'Lemon';
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.logo span{
+    color: #2d644a;
+}
+
+.header div{
+    margin: 20px;
+}
+
+.input-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .input-container i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+  }
+  
+  .input-container input {
+    padding-left: 30px;
+    border-radius: 25px;
+    height: 40px;
+    width: 600px;
+  }
