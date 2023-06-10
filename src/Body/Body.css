@@ -13,10 +13,13 @@
 
 .book{
     font-size: 15px;
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-right: 50px;
     justify-content: center;
     align-items: center;
-}
+    height: 150px;
+    width: 90px;
+    }
 
 .book img{
     padding-top: 0px;
@@ -24,6 +27,7 @@
     height: 170px;
     object-fit: cover;
     margin-right: 10px;
+    
 }
 
 .cover{
@@ -53,5 +57,14 @@
 .books-detail{
     /* display: flex; */
     display: flex;
-    height: 100vw;
+    flex-flow: row wrap;
+    flex-direction: row;
+    height: 50vh;
+    width: 80vw;
+}
+
+.book-list{
+    flex-flow: row wrap;
+    display: flex;
+    width: 80vw;
 }

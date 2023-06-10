@@ -10,7 +10,9 @@ const Body = () => {
                 {/* <img class="image" src="./././assets/download.jpeg" alt="" /> */}
                 <hr />
             </div>
+            <div className="book-list">
                 <Book />
+            </div>
         </div>
      );
 }
