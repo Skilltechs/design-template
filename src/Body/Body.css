@@ -13,16 +13,17 @@
 
 .book{
     font-size: 15px;
-    margin: 15px;
+    margin-top: 15px;
     justify-content: center;
     align-items: center;
-    margin: 15px;
 }
 
 .book img{
+    padding-top: 0px;
     width: 120px;
     height: 170px;
     object-fit: cover;
+    margin-right: 10px;
 }
 
 .cover{
@@ -50,6 +51,7 @@
 }
 
 .books-detail{
+    /* display: flex; */
     display: flex;
-    align-items: center;
+    height: 100vw;
 }
