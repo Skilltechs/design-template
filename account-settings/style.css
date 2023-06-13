@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    border: 2px solid aqua;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+}
+
+.left-section{
+    border: 2px solid blue;
+    width: 4%;
+    height: 100%;
+}
+
+.right-section{
+    border: 2px solid blueviolet;
+    width: 97%;
+    height: 100%;
+}
