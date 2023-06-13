@@ -142,3 +142,8 @@ body{
     width: 60px;
     height: 60px;
 }
+
+.icons{
+    font-size: 40px;
+    padding-right: 100px;
+}
