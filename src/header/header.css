@@ -42,11 +42,15 @@
 
 .header-content .icons .bi{
     margin: 30px;
+    height: 20px;
+    width: 50px;
     
 }
 
 .header-content .icons .bi:hover{
-    background-color: #faf9f7;
+    /* background-color: #faf9f7; */
+    background-color: #fcad0f;
+
 }
 
 .search{
@@ -76,4 +80,9 @@
 .profile img{
     flex: 2;
     padding-left: 65px;
+}
+
+.one{
+    height: 30px;
+    width: 55px;
 }
