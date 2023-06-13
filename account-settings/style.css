@@ -104,6 +104,28 @@ body{
     height: 100%;
 }
 
+.form{
+    padding: 40px;
+    font-size: 1.2rem;
+}
+
+.form h2{
+    padding: 20px;
+}
+
+.form a{
+}
+
+.form p{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.right-content input{
+    width: 90%;
+    height: 50px;
+}
+
 .logo{
     display: flex;
 }
