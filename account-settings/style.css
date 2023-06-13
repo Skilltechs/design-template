@@ -75,7 +75,6 @@ body{
 }
 
 .left-content{
-    border: 2px solid grey;
     width: 25%;
     height: 50%;
 }
@@ -90,7 +89,7 @@ body{
     margin: 10px auto;
     margin-left: 30px;
     border-radius: 10px;
-    font-size: 1.1rem;
+    font-size: 1.0rem;
 }
 
 .left-content button:hover{
