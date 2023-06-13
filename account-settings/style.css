@@ -21,6 +21,7 @@ body{
     border: 2px solid blue;
     width: 4%;
     height: 100%;
+    /* display: block; */
 }
 
 .right-section{
@@ -77,6 +78,25 @@ body{
     border: 2px solid grey;
     width: 25%;
     height: 50%;
+}
+
+.left-content button{
+    width: 80%;
+    height: 40px;
+    margin-bottom: 10px;
+    border: none;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    margin: 10px auto;
+    margin-left: 30px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+.left-content button:hover{
+    width: 200px;
+    background-color: rgb(247, 110, 19);
+    color: white;
 }
 
 .right-content{
