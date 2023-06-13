@@ -28,3 +28,36 @@ body{
     width: 97%;
     height: 100%;
 }
+
+.top-section{
+    border: 2px solid red;
+    height: 5%;
+}
+
+.bottom-section{
+    border: 2px solid purple;
+    height: 95%;
+}
+
+.bottom-section-top{
+    border: 2px solid pink;
+    height: 10%;
+}
+
+.bottom-section-bottom{
+    border: 2px solid brown;
+    height: 90%;
+    display: flex;
+}
+
+.left-content{
+    border: 2px solid grey;
+    width: 25%;
+    height: 50%;
+}
+
+.right-content{
+    border: 2px solid yellow;
+    width: 75%;
+    height: 100%;
+}
