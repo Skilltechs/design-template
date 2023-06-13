@@ -34,6 +34,7 @@ body{
     border: 2px solid red;
     height: 7%;
     display: flex;
+    justify-content: space-between;
 }
 
 .bottom-section{
@@ -128,8 +129,16 @@ body{
 
 .logo{
     display: flex;
+    margin-left: 40px;
+}
+
+.top-text{
+    font-size: 1.2rem;
+    padding-left: 20px;
+    padding-top: 10px;
 }
 
 .logo img{
-    width: 50px;
+    width: 60px;
+    height: 60px;
 }
