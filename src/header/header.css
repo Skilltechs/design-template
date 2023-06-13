@@ -1,60 +1,79 @@
-@font-face {
-    font-family: 'Lemon';
-    src: url('./Lemon-Regular.ttf') format('truetype');
-    font-weight: bold;
-}
-
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
 
-.header {
+.header{
+    box-shadow: -2px 12px 10px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 12px 10px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 12px 10px -4px rgba(0,0,0,0.75);
+    height: 10vh;
+    width: 98.9vw;
+    margin: 0%;
+}
+
+.header-content{
+    padding-top: 20px;
+    padding-left: 15vw;
     display: flex;
-    align-items: center;
-  }
-  
-  .separator {
-    border-left: 1px solid #000000;
-    height: 30px;
-    margin: 0 20px;
-    color: gray;
-  }
-
-.logo {
-    font-family: 'Lemon';
-    font-size: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: #000000;
-    text-decoration: none;
 }
 
-.logo span{
-    color: #2d644a;
-}
-
-.header div{
-    margin: 20px;
-}
-
-.input-container {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .input-container i {
-    position: absolute;
-    left: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #999;
-  }
-  
-  .input-container input {
-    padding-left: 30px;
-    border-radius: 25px;
+.header-content img{
+    
     height: 40px;
-    width: 600px;
-  }
+    width: 40px;
+}
+
+.divider {
+    margin: 0px 15px 0px 15px;
+    background-color: grey;
+    height: 40px;
+    width: 2px;
+}
+
+.header-content p{
+    width: 2px;
+    height: 50px;
+}
+
+.header-content .icons{
+    padding-left: 15vw;
+}
+
+.header-content .icons .bi{
+    margin: 30px;
+    
+}
+
+.header-content .icons .bi:hover{
+    background-color: #faf9f7;
+}
+
+.search{
+    padding-left: 85px;
+}
+
+.header-content .icons-2{
+    margin-right: 0px;
+}
+
+.header-content .icons-2 .bi{
+    margin-left: 20px;
+}
+
+.profile{
+    margin-left: 20px;
+    display: flex;
+    width: 10vw;
+}
+
+.profile p{
+    padding-top: 6px;
+    font-size: 15px;
+    flex: 1;
+}
+
+.profile img{
+    flex: 2;
+    padding-left: 65px;
+}
